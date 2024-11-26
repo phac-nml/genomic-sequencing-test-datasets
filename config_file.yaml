@@ -1,0 +1,27 @@
+Base_path: <set path to where data lives here> #edit this to where your base path exisits
+Data_folder: "Illumina_C6" #change to relevant data path here
+Name_of_folder_one: "dehosted" #change to relevant data path here
+Name_of_folder_two: "no_dehost" #change to relevant data path here
+
+Packages: #packages needed to run the SIGNAL comparison script
+  - dplyr
+  - data.table
+  - readxl
+  - tidyverse
+  - stringr
+  - R.utils
+  - writexl
+  - lubridate
+  - stringi
+  - ggplot2
+  - gridExtra
+  - tinytex
+  - kableExtra
+  - DT
+  - extraoperators
+  - hablar
+  - ape
+  - phylogram
+  - dendextend
+  - data.tree
+  - here
