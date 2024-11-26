@@ -175,15 +175,9 @@ Packages:
   - here
 ```
 
-The absolute path to the configuration file must be entered on line 24 of `SIGNAL_output_comparison_v2.Rmd`. 
-
-```
-config <- yaml::yaml.load_file("<ABSOLUTE/PATH/TO/Configuration_file.yaml>")
-```
-
 ## Script usage
 
-Once the configuration file has been created and it's absolute path has been added to the script on line 24, knit the script in RStudio to generate HTML output.  
+Once the configuration file has been created, knit the script in RStudio to generate HTML output.  
 
 ## HTML Output
 
