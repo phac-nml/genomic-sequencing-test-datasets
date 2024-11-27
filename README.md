@@ -44,9 +44,6 @@ For information and test datasets on training and quality control of contextual 
         - datasets across different lineages 
 
 
-#### Influenza 
-Test datasets coming soon!
-
 <br>
 
 **Recipes - how datasets are created**
