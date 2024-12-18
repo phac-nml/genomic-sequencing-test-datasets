@@ -171,6 +171,9 @@ Packages:
   - data.tree
   - here
 ```
+## renv LOCK file usage
+
+A LOCK file has been created to track R version and R package versions used with the script. To load the R package versions used during the creation of this script, run `renv::restore()`. 
 
 ## Script usage
 
