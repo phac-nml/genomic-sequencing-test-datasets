@@ -1,14 +1,14 @@
 # === Configuration Instructions ===
-# - Set 'Base_path' to the absolute path where your data is stored.
-# - 'Data_folder' should be the name of the main directory containing your data.
-# - 'Name_of_folder_one' and 'Name_of_folder_two' should be subdirectories inside 'Data_folder'.
+# - Set 'Base_path' to the absolute path where your data is stored
+#   - Ex. /Path/To/Overall_Data
+# - 'Name_of_folder_one' and 'Name_of_folder_two' should be subdirectories inside 'Base_path' 
 
 Base_path: "/absolute/path/to/your/data"
-Data_folder: "Illumina_C6"
-Name_of_folder_one: "dehosted"
-Name_of_folder_two: "no_dehost"
+Name_of_folder_one: "User1_Results"
+Name_of_folder_two: "User2_Results"
 
-Packages: #packages needed to run the SIGNAL comparison script
+# Packages needed to run the SIGNAL comparison script - No need to touch
+Packages:
   - dplyr
   - data.table
   - readxl
@@ -30,3 +30,4 @@ Packages: #packages needed to run the SIGNAL comparison script
   - dendextend
   - data.tree
   - here
+  - colorspace

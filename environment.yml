@@ -1,0 +1,24 @@
+name: signal_compare_env
+channels:
+  - conda-forge
+dependencies:
+  - conda-forge::r-base=4.3.0
+  - conda-forge::r-rmarkdown=2.27
+  - conda-forge::r-renv=1.0.11
+  - conda-forge::r-tidyverse=2.0.0
+  - conda-forge::r-ggplot2=3.5.1
+  - conda-forge::r-data.table=1.15.4
+  - conda-forge::r-dplyr=1.1.2
+  - conda-forge::r-r.utils=2.12.3
+  - conda-forge::r-writexl=1.5.0
+  - conda-forge::r-lubridate=1.9.3
+  - conda-forge::r-stringi
+  - conda-forge::r-gridextra=2.3
+  - conda-forge::r-tinytex=0.51
+  - conda-forge::r-kableextra=1.4.0
+  - conda-forge::r-dt=0.33
+  - conda-forge::r-ape=5.8
+  - conda-forge::r-phylogram=2.1.0
+  - conda-forge::r-dendextend=1.17.1
+  - conda-forge::r-data.tree=1.1.0
+  - conda-forge::r-here=1.0.1
